@@ -405,6 +405,19 @@
       .menu-toggle{ display:block; }
     }
 
+    .video-wrapper{
+  margin-top:15px;
+  border-radius:12px;
+  overflow:hidden;
+}
+
+.video-wrapper iframe{
+  width:100%;
+  aspect-ratio: 16/9;
+  height:auto;
+  border:none;
+}
+    
     @media (max-width: 720px){
       .hero{
         min-height:auto;
@@ -562,6 +575,14 @@
         <article class="card feature-card">
           <h3>Kajian Rutin</h3>
           <p>Jadwal kajian subuh, ba'da maghrib, dan kegiatan pembinaan jamaah.</p>
+          <div class="video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/live/pJgTDkKkoy0?feature=shared" 
+    title="Kajian Rutin"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
           <div class="chip-list">
             <span class="chip">Aqidah</span>
             <span class="chip">Fiqih</span>
